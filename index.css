@@ -1,0 +1,97 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.head h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-bar :hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.flex-item {
+    justify-content: space-evenly;
+
+    border: 0.25rem solid black;
+    padding: 0.5rem 0.25rem;
+    margin: auto 0.10rem;
+    border-radius: 15%;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+.tanitim-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tanitim-flex p {
+    margin: 0.25rem 3rem;
+    font-size: larger;
+}
+
+.images-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-image {
+    display: flex;
+    width: 80%;
+    height: 30rem;
+    justify-content: center;
+    object-position: center;
+
+}
+
+.images-vertical {
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.images-vertical p {
+    width: 24%;
+    font-size: large;
+}
+
+.vertical {
+    width: 23%;
+    margin: 0 1%;
+
+}
+
+footer nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.25rem solid black;
+    padding: 0.5rem 0.25rem;
+    margin: 1rem 0.10rem;
+    font-size: large;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+
+}
+footer nav :hover {
+    background-color: rgb(226, 226, 226);
+}

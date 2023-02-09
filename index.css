@@ -1,10 +1,18 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
+.head{
+    background-color: rgb(236, 236, 236);
+    padding: 0.1rem;
+    
+}
 
 .head h1 {
     display: flex;
     justify-content: center;
+    font-size: larger;
+    
+    
 
 }
 
@@ -12,6 +20,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0.5rem auto;
+    
 }
 
 .flex-bar :hover {
@@ -37,16 +47,20 @@
     justify-content: center;
     align-items: center;
 }
-
+.tanitim-flex h2{
+    font-size: xx-large;
+    
+}
 .tanitim-flex p {
     margin: 0.25rem 3rem;
     font-size: larger;
+    
 }
 
 .images-flex {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     align-items: center;
 
 }
@@ -54,7 +68,8 @@
 .banner-image {
     
     width: 40%;
-      
+    padding: 0.1rem;
+    border: outset;
     
 }
 
@@ -63,11 +78,14 @@
     margin-top: 5rem;       
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .images-vertical img{
     margin: 2%;
     width: auto;
     height: 22%;
+    padding: 0.1rem;
+    border: outset;
 
 }
 
@@ -77,6 +95,8 @@
     width: 21%;
     height: auto;
     margin:2%;
+    padding: 0.1rem;
+    border: outset;
 }
 
 
@@ -95,4 +115,22 @@ footer nav a {
 }
 footer nav :hover {
     background-color: rgb(226, 226, 226);
+}
+@media (max-width:600px){
+    .flex-bar{
+        flex-direction: column;
+        
+    }
+    .flex-item{
+        display: flex;
+        justify-content: center;
+        border-radius: 10%;
+    }   
+    .banner-image{
+        width: 80%;
+    }
+    .images-vertical p{
+        width: 90%;
+    }
+
 }

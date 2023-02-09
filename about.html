@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Döküman</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <style>
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 3rem;
+        }
+
+        .about img {
+            width: 40%;
+            height: 20%;
+        }
+
+        @media (max-width:600px) {
+            flex-bar {
+                flex-direction: column;
+
+            }
+            .about img{
+                width: 90%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1> Hakkında </h1>
+    <header>
+        <div class="head">
+            <h1>Alptuğ</h1>
+            <nav class="flex-bar">
+                <a class="flex-item" href="about.html">Ana Sayfa</a>
+                <a class="flex-item" href="">Hakkında</a>
+                <a class="flex-item" href="">İletişim</a>
+                <a class="flex-item" href="">Projeler</a>
+            </nav>
+        </div>
+    </header>
+    <main class="about">
+
+        <img src="https://picsum.photos/id/177/900/600" />
+        <h1>Alptuğ Kızılay</h1>
+        <p>Alptuğ, doğduğu günden beri hayatı boyunca hiçbir şeyi ciddiye almazdı. Her zaman bir şaka veya espri ile
+            karşılaştığı her durumu aşardı. Bir gün, Bob bir uzay gemisi ile uzaya fırladı ve orada bir grup uzaylı ile
+            tanıştı. Uzaylılar, Bob'un dünyaya döndükten sonra insanların hayatına nasıl eğlence katabileceğini öğrendi
+            ve ona dünya turu yapması için bir uzay gemisi verdiler. Bob, dünya turu yaparken her yerde esprileri,
+            şakaları ve eğlenceli hikayeleri ile insanların günlerini aydınlattı. Ve sonunda, o hepimizin kalbine girdi
+            ve hepimiz onun gibi daha neşeli ve eğlenceli bir hayat sürebilmeyi umduk.</p>
+    </main>
+    <footer>
+        <nav>
+            <a href="">Bana Ulaş</a>
+        </nav>
+    </footer>
+
 </body>
+
 </html>

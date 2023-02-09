@@ -46,38 +46,39 @@
 .images-flex {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    margin-top: 5rem;
     align-items: center;
 
 }
 
 .banner-image {
-    display: flex;
-    width: 80%;
-    height: 30rem;
-    justify-content: center;
-    object-position: center;
-
+    
+    width: 40%;
+      
+    
 }
 
 .images-vertical {
     display: flex;
-    margin-top: 5rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    margin-top: 5rem;       
+    flex-wrap: wrap;
     justify-content: center;
+}
+.images-vertical img{
+    margin: 2%;
+    width: auto;
+    height: 22%;
+
 }
 
 .images-vertical p {
-    width: 24%;
+    
     font-size: large;
+    width: 21%;
+    height: auto;
+    margin:2%;
 }
 
-.vertical {
-    width: 23%;
-    margin: 0 1%;
-
-}
 
 footer nav a {
     display: flex;
